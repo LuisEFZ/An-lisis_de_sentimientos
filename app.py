@@ -26,8 +26,7 @@ nb_model = joblib.load('./model/naive_bayes_model.pkl')
 lr_model = joblib.load('./model/logistic_regression_model.pkl')
 
 # App title
-st.title("Análisis de sentimientos de X (Tweet)")
-st.write("Autor: Luis Flores Zavala")
+st.title("Análisis de sentimientos (Inglées o Castellano)")
 st.write("Ingresa el texto que deseas analizar:")
 
 # User input text
