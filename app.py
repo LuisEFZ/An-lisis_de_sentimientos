@@ -27,6 +27,7 @@ lr_model = joblib.load('./model/logistic_regression_model.pkl')
 
 # App title
 st.title("Análisis de sentimientos (Inglés o Castellano)")
+st.write("Autor: Luis Flores Zavala")
 st.write("Ingresa el texto que deseas analizar:")
 
 # User input text
